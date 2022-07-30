@@ -122,3 +122,36 @@ a {
         font-size: 1.2rem;
     }
 }    
+
+/* Lists */
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-text-headings);
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick {
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
+}
+
+.list--tick .list__item{
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 750px) {
+    .list--tick .list__item{
+         padding-left: 0;
+    }
+}
+    
+
+
+
