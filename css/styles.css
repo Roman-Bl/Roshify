@@ -152,6 +152,26 @@ a {
     }
 }
     
+/* Icons */
 
+.icon {
+    height: 50px;
+    width: 50px;
+}
 
+.icon--primary {
+    fill: var(--color-primary);
+}
 
+.icon--round {
+    background-color: #f3f9fa;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+    .icon--round {
+        height: 40px;
+        width: 40px;
+        padding: 1.2rem;    }
+}
