@@ -118,6 +118,7 @@ a {
 
 .badge--small {
     font-size: 1.6rem;
+    
 }
 
 @media screen and (min-width: 750px) {
@@ -281,3 +282,50 @@ a {
             font-size: 1.5rem;
         }
     }
+
+    /* Card */
+
+    
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 0 20px 10px #f3f3f3; 
+        overflow: hidden;
+        width: min-content;
+        height: min-content;
+        margin: 10rem;
+
+    }
+    .card--header {
+        background-color: var(--color-secondary);
+        color: white;
+        padding: 2.5rem 3rem;
+    }
+
+    .card--header p{
+        margin-bottom: 0;
+    }
+
+    .header--price {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .header--price p {
+        padding-right: 10px;
+    }
+
+    .header--price .badge--small {
+        padding: 0.5rem 1rem;
+    }
+    .price--primary {
+        font-size: 6rem;
+    }
+
+    .price--secondary {
+        font-size: 2.4rem;
+    }
+
+   .card__body {
+    padding: 2.5rem 3rem;
+   }
