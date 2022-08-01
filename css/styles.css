@@ -244,6 +244,11 @@ a {
     width: 100%;
 }
 
+.btn--long {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
 @media screen and (min-width: 1024px) {
     .btn {
     font-size: 1.5rem;
@@ -513,7 +518,7 @@ a {
 
 /*With Flex  */
 
-.callout {
+/* .callout {
     background-color: var(--color-primary);
     color: white;
     border-radius: 10px;
@@ -551,5 +556,41 @@ a {
     .callout .btn {
         width: 25%;
     }
+} */
+
+/* With Grid */
+
+.callout {
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 10px;
+    padding: 5.5rem 4rem;
+    }
+
+.callout__body {
+    text-align: center;
 }
 
+.callout__title {
+    color: white;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.callout .btn {
+   align-self: center;
+   justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    .callout .grid--1x2 {
+        grid-template-columns: auto auto;
+    }    
+    .callout .btn {
+        justify-self: start;
+        margin-left: 2rem;
+    }
+    .callout__body {
+        text-align: left;
+    }
+}   
