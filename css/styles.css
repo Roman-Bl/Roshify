@@ -164,36 +164,31 @@ a {
 /* Icons */
 
 .icon {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .icon--primary {
     fill: var(--color-primary);
 }
 
-.icon--accent {
-    background-color: var(--color-accent);
-    fill: white;
-}
-
 .icon--white {
     fill: white;
 }
 
-.icon--round {
+.icon-container {
     background-color: #f3f9fa;
-    border-radius: 50%;
-    padding: 1.5rem;
+    border-radius: 100%;
+    display: inline-flex;
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container--accent {
+    background-color: var(--color-accent);
 }
 
-
-@media screen and (min-width: 1024px) {
-    .icon--round {
-        height: 40px;
-        width: 40px;
-        padding: 1.2rem;    }
-}
 
 /* Buttons */
 
@@ -478,7 +473,7 @@ a {
     position: relative;
 }
 
-.testimonial__img > .icon {
+.testimonial__img > .icon-container {
     position: absolute;
     top: 3rem;
     right: -12px;
@@ -489,12 +484,6 @@ a {
        padding: 0 20px;
 }
 
-.testimonial .icon--round {
-    padding: 2rem;
-    width: 64px;
-    height: 64px;
-    
-} 
 
 @media screen and (max-width: 500px) {
     .testimonial .quotes,
@@ -514,7 +503,7 @@ a {
     .testimonial__img > img {
         padding: 0;
     }
-    .testimonial__img > .icon {
+    .testimonial__img > .icon-container {
     right: -32px;
     }
 }
@@ -633,3 +622,41 @@ a {
     transform: rotate(0);
 }
 
+/* Blocks */
+
+.block {
+    --pading-block-vertical: 6rem;
+    padding: var(--pading-block-vertical) 2rem;
+    border: 2px solid red;
+}
+
+.block__header {
+    text-align: center;
+}
+
+.block__title {
+    margin-top: 0;
+}
+
+.block--dark {
+    background-color: black;
+    color: #979fa9;
+}
+
+.block--dark .block__title {
+    color:white;
+}
+
+.block--skewed-right {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+    padding-bottom: calc(var(--pading-block-vertical) + 4rem)
+}
+.block--skewed-left {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    padding-bottom: calc(var(--pading-block-vertical) + 4rem)
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
