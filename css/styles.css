@@ -660,3 +660,77 @@ a {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* Navigation Bar */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__toggler {
+    fill: rgb(175, 175, 175);
+    transition: fill 0.3s;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.nav.collapsible--open .nav__toggler {
+    fill: white;
+    border-radius: 7px;
+    box-shadow: 0 0 8px 4px rgba(70, 70, 70, 0.849);
+    overflow: visible;
+    transition: all .3s;
+}
+
+.nav__list {
+    width: 100%;
+    margin:0;
+}
+
+.nav__item {
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding: 0.5rem 2rem;
+}
+
+.nav__item:first-child {
+    padding-top: 1rem;
+}
+.nav__item:last-child {
+    border-bottom: none;
+}
+
+.nav__item >a{
+    color: rgb(175, 175, 175);
+    transition: color .3s;
+}
+.nav__item >a:hover {
+    color: white;
+}
+
+.nav__brand {
+    transform: translateY(5px);
+}
+
+@media screen and (min-width: 768px) {
+    .nav__toggler {
+        display: none;
+    }
+    .nav__list {
+        width: auto;
+        display: flex;
+        font-size: 1.6rem;
+        max-height: 100%;
+        opacity: 1;
+
+    }
+    .nav__item {
+        border-bottom: 0;
+    }
+    .nav__item:first-child {
+        padding-top: 0.5rem;
+    }
+}
