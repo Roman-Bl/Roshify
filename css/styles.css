@@ -206,6 +206,13 @@ a {
     white-space: nowrap;
  }
 
+ .btn .icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+ }
+
 .btn-primary {
     background-color: var(--color-primary);
     color: white;
@@ -777,4 +784,47 @@ a {
     .hero {
         padding-top: 2rem;
     } 
+}
+
+/* Domains block */
+
+.block-domain .input-group {
+    box-shadow: 0 0 30px 20px #e6ebee;
+    border: 0;
+    margin: 3rem auto;
+    max-width: 670px;
+}
+
+.block-domain__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.block-domain__list .badge {
+    font-size: 1.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+} 
+
+.block-domain__input {
+    overflow: hidden;
+}
+
+.block-domain__input .input {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 360px) {
+    .block-domain__list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
+
+@media screen and (min-width: 768px) {
+    .block-domain__list {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      }
 }

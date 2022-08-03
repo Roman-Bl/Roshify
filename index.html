@@ -15,25 +15,36 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body style="padding: 3rem">
-    <section class="block block--dark block--skewed-left hero">
-      <div class="container grid grid--1x2">
-        <section class="block__header hero__content">
-          <h1 class="block__title hero__title">Cloud Hosting for Pros</h1>
-          <p class="hero__text">Deploy your website in less than 60 seconds</p>
-          <a href="#" class="btn btn--accent btn--long test">Get Started</a>
-        </section>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
-          />
-          <source
-            type="image/png"
-            srcset="images/banner.png 1x, images/banner@2x.png 2x"
-          />
-          <img class="hero__img" src="/images/banner.png" alt="" />
-        </picture>
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>Starting at 9$ per month</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, ipsum.
+        </p>
+      </header>
+      <div class="input-group block-domain__input">
+        <input
+          class="input"
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter domain here..."
+        />
+        <button class="btn btn--accent" type="submit">
+          <svg class="icon icon--white">
+            <use xlink:href="images/sprite_alt.svg#search"></use>
+          </svg>
+          Search
+        </button>
       </div>
+      <ul class="list block-domain__list">
+        <li class="list__item badge">.com $9</li>
+        <li class="list__item badge badge--secondary">.sg $7</li>
+        <li class="list__item badge">.space $12</li>
+        <li class="list__item badge">.info $14</li>
+        <li class="list__item badge">.net $16</li>
+        <li class="list__item badge">.xyz $10</li>
+      </ul>
     </section>
     <script src="/js/main.js"></script>
   </body>
