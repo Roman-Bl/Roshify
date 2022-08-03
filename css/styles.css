@@ -312,7 +312,7 @@ a {
     }
 
     .card__header, .card__body {
-        padding: 2.5rem 3rem;
+        padding: 2.5rem 2.5rem;
     }
 
     .card--primary .card__header {
@@ -322,6 +322,25 @@ a {
     .card--secondary .card__header {
         background-color: var(--color-secondary);
         color: white;
+    }
+
+    /* Plans */
+
+    .plan {
+        transition: transform .2s ease-in-out;
+    }
+
+    .plan:hover {
+        transform: scale(1.05);
+    }
+    
+    .plan--popular {
+        transform: scale(1.1);
+    }
+
+
+    .plan--popular:hover {
+        transform: scale(1.15);
     }
 
     .plan__title {
@@ -827,4 +846,18 @@ a {
     .block-domain__list {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
       }
+}
+
+/* Cards block */
+
+.block-cards .grid {
+    gap:8rem 4rem;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    .block-cards .plan {  
+        width: 500px;
+        margin: 0 auto;
+    }
 }
