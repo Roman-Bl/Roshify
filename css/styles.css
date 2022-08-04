@@ -861,3 +861,33 @@ a {
         margin: 0 auto;
     }
 }
+
+/* Features block */
+
+.feature {
+    gap: 4rem 1rem;
+    margin-top: 9rem;
+}
+
+.feature .media {
+    flex-direction: column;
+}
+
+.feature__content .media__image {
+    padding-bottom: 1.5rem;
+}
+
+
+.feature__img {
+    width: 100%;
+    align-self: center;
+}
+
+.feature:first-of-type {
+    margin-top: 4rem;
+}
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content{
+        order: 2;
+    }
+}
