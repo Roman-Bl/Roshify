@@ -15,48 +15,78 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body style="padding: 2rem">
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__title">What Our Customers Are Saying</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, et.
-        </p>
-      </header>
-      <div class="card testimonial">
-        <div class="grid grid--1x2">
-          <div class="testimonial__img">
-            <img src="/images/testimonial.jpg" alt="" />
-            <div class="icon-container icon-container--accent">
-              <svg class="icon icon--white">
-                <use xlink:href="images/sprite_alt.svg#quotes"></use>
-              </svg>
-            </div>
-          </div>
-          <blockquote class="quotes">
-            <p class="quotes__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloribus, temporibus repellendus eos soluta magni esse laboriosam
-              recusandae quo quis distinctio, sit adipisci exercitationem
-              corporis nesciunt odio aspernatur et officiis incidunt.
-            </p>
-            <footer class="quotes__footer">
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite_alt.svg#line"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title quotes__author">Jhone Lumeo</h3>
-                  <p class="quotes__company">Rosh company ceo</p>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
+    <footer class="block block--dark block-footer">
+      <section class="container">
+        <div class="collapsible block-footer__content">
+          <header class="collapsible__header">
+            <h4 class="collapsible__title block__title">PRODUCTS</h4>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite_alt.svg#chevron"></use>
+            </svg>
+          </header>
+          <ul class="list collapsible__body">
+            <li class="list__item"><a href="#">WordPress Hosting</a></li>
+            <li class="list__item"><a href="#">Free Automated WordPress</a></li>
+            <li class="list__item"><a href="#">Migrations</a></li>
+            <li class="list__item"><a href="#">Domain Names</a></li>
+            <li class="list__item"><a href="#">Monthly Web Hosting</a></li>
+          </ul>
         </div>
-      </div>
-    </section>
+        <div class="collapsible block-footer__content">
+          <header class="collapsible__header">
+            <h4 class="collapsible__title block__title">COMPANY</h4>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite_alt.svg#chevron"></use>
+            </svg>
+          </header>
+          <ul class="list collapsible__body">
+            <li class="list__item"><a href="#">About</a></li>
+            <li class="list__item"><a href="#">Affilates</a></li>
+            <li class="list__item"><a href="#">Blog</a></li>
+            <li class="list__item"><a href="#">Careers</a></li>
+            <li class="list__item"><a href="#">Community</a></li>
+            <li class="list__item"><a href="#">News</a></li>
+            <li class="list__item"><a href="#">Green Hosting</a></li>
+          </ul>
+        </div>
+        <div class="collapsible block-footer__content">
+          <header class="collapsible__header">
+            <h4 class="collapsible__title block__title">SUPPORT</h4>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite_alt.svg#chevron"></use>
+            </svg>
+          </header>
+          <ul class="list collapsible__body">
+            <li class="list__item"><a href="#">Contact</a></li>
+            <li class="list__item"><a href="#">Knowledge Base</a></li>
+            <li class="list__item"><a href="#">Forums</a></li>
+            <li class="list__item"><a href="#">System Status</a></li>
+            <li class="list__item"><a href="#">Web Hosting</a></li>
+            <li class="list__item"><a href="#">DreamCompute</a></li>
+          </ul>
+        </div>
+        <div class="collapsible block-footer__content">
+          <header class="collapsible__header">
+            <h4 class="collapsible__title block__title">DOMAINS</h4>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite_alt.svg#chevron"></use>
+            </svg>
+          </header>
+          <ul class="list collapsible__body">
+            <li class="list__item"><a href="#">Domain Checker</a></li>
+            <li class="list__item"><a href="#">Domain Transfer</a></li>
+            <li class="list__item"><a href="#">Free Domain</a></li>
+            <li class="list__item"><a href="#">XYZ Domain</a></li>
+            <li class="list__item"><a href="#">Cheap SSL Certificate</a></li>
+          </ul>
+        </div>
 
+        <picture class="block-footer__img"
+          ><img src="/images/logo.svg" alt="" />
+          <p>Copyright &copy; 2022</p>
+        </picture>
+      </section>
+    </footer>
     <script src="/js/main.js"></script>
   </body>
 </html>
