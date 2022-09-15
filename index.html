@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: https://ogp.me/ns#" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Deploy your websites in less then 60 seconds."
+    />
+    <meta property="og:title" content="Mosify - Go Online for Just 9$" />
+    <meta
+      property="og:description"
+      content="Deploy your websites in less then 60 seconds."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.kindpng.com/picc/m/715-7150690_web-hosting-illustration-hd-png-download.png"
+    />
+    <meta property="og:url" content="https://www.mywebhosting.com" />
+
+    <title>Mosify - Go Online for Just 9$</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +36,7 @@
       <div class="container">
         <nav class="nav collapsible">
           <a class="nav__brand" href=""
-            ><img src="/images/logo.svg" alt=""
+            ><img src="/images/logo_new.png" alt=""
           /></a>
           <svg class="icon icon--white nav__toggler">
             <use xlink:href="images/sprite_alt.svg#menu"></use>
@@ -36,11 +52,11 @@
     </header>
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
-        <section class="block__header hero__content" data-aos="fade-right">
+        <header class="block__header hero__content" data-aos="fade-right">
           <h1 class="block__title hero__title">Cloud Hosting for Pros</h1>
           <p class="hero__text">Deploy your website in less than 60 seconds</p>
           <a href="#" class="btn btn--accent btn--long test">Get Started</a>
-        </section>
+        </header>
         <picture data-aos="zoom-in">
           <source
             type="image/webp"
@@ -62,13 +78,7 @@
         </p>
       </header>
       <div class="input-group block-domain__input">
-        <input
-          class="input"
-          type="text"
-          name=""
-          id=""
-          placeholder="Enter domain here..."
-        />
+        <input class="input" type="text" placeholder="Enter domain here..." />
         <button class="btn btn--accent" type="submit">
           <svg class="icon icon--white">
             <use xlink:href="images/sprite_alt.svg#search"></use>
@@ -111,7 +121,7 @@
           <div class="card card--primary">
             <header class="card__header">
               <h3 class="plan__title">Business</h3>
-              <span class="plan__price">$14</span>
+              <span class="plan__price">$24</span>
               <span class="plan__annual">/month</span>
               <span class="badge badge--primary badge--small">10% OFF</span>
               <span class="plan__description">Easy start on the cloud</span>
@@ -131,7 +141,7 @@
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__title">Business Plus</h3>
-              <span class="plan__price">$14</span>
+              <span class="plan__price">$54</span>
               <span class="plan__annual">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
               <span class="plan__description">Easy start on the cloud</span>
@@ -414,12 +424,12 @@
     <footer class="block block--dark block-footer">
       <section class="container">
         <div class="collapsible block-footer__content">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h4 class="collapsible__title block__title">PRODUCTS</h4>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite_alt.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <ul class="list collapsible__body">
             <li class="list__item"><a href="#">WordPress Hosting</a></li>
             <li class="list__item"><a href="#">Free Automated WordPress</a></li>
@@ -429,12 +439,12 @@
           </ul>
         </div>
         <div class="collapsible block-footer__content">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h4 class="collapsible__title block__title">COMPANY</h4>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite_alt.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <ul class="list collapsible__body">
             <li class="list__item"><a href="#">About</a></li>
             <li class="list__item"><a href="#">Affilates</a></li>
@@ -446,12 +456,12 @@
           </ul>
         </div>
         <div class="collapsible block-footer__content">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h4 class="collapsible__title block__title">SUPPORT</h4>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite_alt.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <ul class="list collapsible__body">
             <li class="list__item"><a href="#">Contact</a></li>
             <li class="list__item"><a href="#">Knowledge Base</a></li>
@@ -462,12 +472,12 @@
           </ul>
         </div>
         <div class="collapsible block-footer__content">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h4 class="collapsible__title block__title">DOMAINS</h4>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite_alt.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <ul class="list collapsible__body">
             <li class="list__item"><a href="#">Domain Checker</a></li>
             <li class="list__item"><a href="#">Domain Transfer</a></li>
@@ -477,10 +487,10 @@
           </ul>
         </div>
 
-        <picture class="block-footer__img"
-          ><img src="/images/logo.svg" alt="" />
+        <div class="block-footer__img">
+          <img src="/images/logo_new_formated.png" alt="" />
           <p>Copyright &copy; 2022</p>
-        </picture>
+        </div>
       </section>
     </footer>
 
