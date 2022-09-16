@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209.998" height="54.248" viewBox="0 0 871 225">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: gold;
+      }
+
+      .cls-2 {
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        font-size: 124px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="200.5" cy="137.5" r="40.5"/>
+  <image x="123" y="24" width="110" height="154" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAlCAYAAACzpJKIAAAE+0lEQVRIibVXe2xTVRz+zrm3t7ct3cbWjXWMAWM4jCw8RRf4Q40GHzgfBAYJj0BINDFB/zCIMfFBNMH4iBHUKEZdiIr4BCXKoiBLzCBB0LggOtjG3uvabl233bb33nPMuW0JrtC1G3z/3OQ+zvf7ne873zmXvLVxF1xGGDam49+c+ff9k1O1IaQUeF3GkH/6aNsXi4KNX0vcRL+9GDI3wCFAEJEc0CQnFBaFjRug3MSo7AIHgUEVyCyGmwf/sMbudcyAz+GF7NLDoODkm7KtP57yVK00KCAxQFxtbNGaC+6qs6s6P32gONLZ47dPA0AxUVCFGzhcuu67n0qqVqomUBAFcnXAEwWcBnCysGLR3nk7u8/lLt3k1TqhmqNghFrdZQvalLewprFoSY1XA+wMiWmKX2UOeEeBAcWODys21h0u3fSVamo0LxaASbLvkDa7K2t08n+iK8EIkB8FphjAD6W3r/5g7o6+ETlnXnGkK9Fd5h3SiOQql/jViZJgiWJE9+dzCz375m4/1zLllvuLIl1wmCOJLscnpQozdJZBccliBGHA7iZ1czYcOVpSe4wRqbQw0pt4J/1AlHDOUu6mgSgsLwbYTeC3onl31pU/0d7mqlznifRYy4CncSvlhJD09aRCECoMmBYB/KpKPq7Y/PnRkrUHp+hDJFcPXNOtFOnlSgvxoTCP0LO+5NY1B2Y97htUPEuKtG4QzsDHtEEpZ3zCbIkuxfosigDNbo9n/+xtp//Mr37OE+3D1Kjf0pEnOClH1rOYgmSxhdF48nw//Y6XD83YdKrbObNgunYJqqnBJBLoFcSThujSrQNTY8DpgtnLXql6tWd/+VPPi2x16yFLMzaZaRwLQSjWbbEGaDK1vVv56EsHZj1Wb2cxyMI216uzsaQ5OuAwgBPT5t9TGOl6hhLwidtxHIhxbVzsHkCLu7yGYlJezIxQ6BhSimZQAmSVIBOBkMkEmcA+kSUoB8I2sUcG2qx1diMMggTRiAyYBFgcPPOOMIh5I1RLEmky8FDH8dfmhpoOWG68EUTDMjAqA+taD724vvW9HSHbVGvnv666JTUSsfVwx8/blwQb9oRtuVZcyQTZ7WfpIIiC9niC1LZ+u6Vi+K9P+lUv7GZUpCJkBum6ZCPhQL8K5Mdi+upLB1fNHj5X3+0sg2pol6NapmCTUk0UKr73OYCykUH/5ovv3+bWgy19jlKweM5ffleeTIIkiURHc8L9Hdua9yxzmEO97a45IJxjrPnkq+zeGRMJsXsdwIKB9qb1rR9VK2x0eEDxgFhPUgcWBx4z5e44sOKHxImWBlpObrmwd4Fwe1AphJAllSZBdtUS0kA4LkIBnwos7z9/fPPFvdUEjA0q+dbPRTpkRSYcp0lARALu7jnz2dq2fXcJKyeJxhtI5hmGsehIRE/IBtS2HXm22v/LbqGPYkZBM1yqlHI9IOY/XVXJnBMR9GDniTeW++p396kliFF7wgyZgRZrnY0is64128n4EVNX03HshWX+X58O2/KgW0TZLRu6MPh73U1Dl9p6nKn/JIJowB533saWg08uDjbs8qle6NRmHUKzBZUQiz3S/uXqivCI3u2IaxKV4tPW7YwfQLdcqNu6ONDwtk8tASNS1h0lIQ/aCpAf9Z3Z2vxmWUPxva93OstX6FSRJW6w3FDw7xW+ozsrh5rOdjlnWqdbkQwTAoD/ADHDDBRKpAykAAAAAElFTkSuQmCC"/>
+  <circle class="cls-2" cx="200.5" cy="137.5" r="40.5"/>
+  <text id="Roshify" class="cls-3" x="301.75" y="153.75">Roshify</text>
+</svg>

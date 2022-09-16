@@ -788,7 +788,11 @@ a {
 
 .nav__brand {
     transform: translateY(5px);
+    max-width: 21rem;
 }
+.nav__brand img {
+    width: 100%;
+} 
 
 @media screen and (min-width: 768px) {
     .nav__toggler {
